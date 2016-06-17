@@ -1,7 +1,7 @@
 # Site settings
 title: MFMA
 email: jbothma@gmail.com
-description: "This is mobile and search-engine friendly mirror of the original MFMA website for the sole purpose of helping people find the fundamentally important resources available there. The strategy is to duplicate as little as possible and simply make it easier to reach the original resources."
+description: "This is a mobile and search-engine friendly mirror of the original MFMA website for the sole purpose of helping people find the fundamentally important resources available there. The strategy is to duplicate as little as possible and simply make it easier to reach the original resources."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mfmamirror.github.io"
 twitter_username: jdbothma
