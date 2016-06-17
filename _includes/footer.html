@@ -52,3 +52,43 @@
   })(jQuery); // pass another library here if required
 
 </script>
+
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  col-sm-3">
+        Email:
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+
+      <div class="footer-col  col-sm-2">
+          {% if site.github_username %}
+            Github:
+            <a href="https://github.com/{{ site.github_username }}">
+              <span class="username">{{ site.github_username }}</span>
+            </a>
+          {% endif %}
+
+      </div>
+
+      <div class="footer-col  col-sm-2">
+          {% if site.twitter_username %}
+            Twitter:
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span class="username">{{ site.twitter_username }}</span>
+            </a>
+          {% endif %}
+      </div>
+
+      <div class="footer-col  col-sm-12">
+        <p >{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
