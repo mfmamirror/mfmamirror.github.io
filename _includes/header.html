@@ -1,8 +1,24 @@
 <header class="site-header">
-  <span class="site-title">National Treasury - <a  href="{{ site.baseurl }}/">{{ site.title }}</a></span>
-
-  <div class="footer-col  col-sm-12">
-    <p >{{ site.description }}</p>
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>{{ site.title }}</h1>
+    </div>
   </div>
 
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="alert alert-warning" role="alert">
+        <span style="display: inline-block"><strong>Unofficial MFMA mirror</strong></span>
+        <span style="overflow-wrap: break-word">
+          View the original at
+          {% if page.original_url %}
+          <a href="{{ page.original_url }}">{{ page.original_url }}</a>
+          {% else %}
+          <a href="http://mfma.treasury.gov.za">http://mfma.treasury.gov.za</a>
+          {% endif %}
+        </span>
+      </div>
+
+    </div>
+  </div>
 </header>
