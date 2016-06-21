@@ -21,6 +21,22 @@
           </p>
           {{ page.breadcrumbs }}
           {{ content }}
+          {% if page.table_items %}
+          <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>Date Modified</th>
+                <th>Modified By</th>
+            </tr>
+            {% for row in page.table_items %}
+            <tr>
+              <td><a href="{{ row.path }}">{{ row.label }}</a></td>
+              <td>{{ row.modified_date }}</td>
+              <td>{{ row.user }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+          {% endif %}
         </div>
       </div>
 
