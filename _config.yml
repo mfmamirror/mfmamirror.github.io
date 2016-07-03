@@ -9,6 +9,3 @@ github_username:  jbothma
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-sitemap
