@@ -11,4 +11,4 @@ github_username:  jbothma
 markdown: kramdown
 
 gems:
-#  - jekyll-sitemap
+  - jekyll-sitemap
