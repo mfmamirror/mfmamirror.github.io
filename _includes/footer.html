@@ -39,14 +39,6 @@
         'hitCallback': loadPage
       });
 
-      // redirect after one second if recording takes too long
-      setTimeout(loadPage, 1000);
-
-      // redirect to outbound page
-      function loadPage() {
-        document.location = href;
-      }
-
     });
 
   })(jQuery); // pass another library here if required
