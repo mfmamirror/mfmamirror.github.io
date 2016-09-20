@@ -39,6 +39,12 @@
         'hitCallback': loadPage
       });
 
+
+      // redirect to outbound page
+      function loadPage() {
+        document.location = href;
+      }
+
     });
 
   })(jQuery); // pass another library here if required
